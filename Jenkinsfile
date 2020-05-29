@@ -15,8 +15,8 @@ pipeline {
         script {
           withDockerRegistry([ credentialsId: "DockerHub", url: "" ])
           {
-            sh 'docker push puneethk26/eventsdb:1.0'
-            sh 'docker push puneethk26/eventsweb:1.0'
+            sh 'docker push puneethk26/eventsdb:latest'
+            sh 'docker push puneethk26/eventsweb:latest'
 
           }
         }

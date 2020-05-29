@@ -5,12 +5,12 @@ version: '3'
 services:
   db:
     build: ./database
-    image: puneethk26/eventsdb:1.0
+    image: puneethk26/eventsdb:latest
     ports:
       - "3306:3306"
   events:
     build: .
-    image: puneethk26/eventsweb:1.0
+    image: puneethk26/eventsweb:latest
     container_name: events
     depends_on:
       - db

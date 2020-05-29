@@ -9,7 +9,6 @@ pipeline {
 
       }
     }
-
     stage('Docker push') {
       steps {
         script {
@@ -36,6 +35,12 @@ pipeline {
           """,
           jobId: "3f86add7-2064-4fe5-a822-afbe257e9518"])
         }
+      }
+    }
+    stage('Test') {
+      steps {
+        sh 'selenium-side-runner --output-directory=./testing/results --output-format=junit ./testing/IIITB-Event-Calendar.side'
+
       }
     }
   }

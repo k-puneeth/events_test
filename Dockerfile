@@ -1,0 +1,18 @@
+FROM node:12-alpine
+
+# Exposing port where service is running
+EXPOSE 4000
+
+# Defining the directory structure inside the container
+# Setting current working dir
+WORKDIR /usr/app
+
+# Copying relevant files inside container
+COPY . /usr/app/
+
+# Installing the requirements inside the container
+RUN npm install
+
+
+CMD ["./run.sh", "-t", "20", "db:3306", "--", "node", "server.js"]
+#CMD ["/bin/sh","run.sh"]

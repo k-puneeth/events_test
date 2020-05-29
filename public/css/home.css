@@ -1,0 +1,594 @@
+.header-background-manager{
+  /*background-image: url("https://www.iiitb.ac.in/includefiles/userfiles/images/iiitb_logo.jpg");*/
+  width: 100%;
+  height: 100%;
+  background-color: #dbe0e3;
+}
+
+
+
+/*############################## 					DIV-1			LOGO LOGIN                        #######################*/
+
+.logo-login-me{
+  display: flex;
+  flex-direction: column;
+  /*background-color: white;*/
+  justify-content: space-between;
+  /*background-color: #fff;*/
+  position: sticky;
+  z-index: 1000;
+  width: 100%;
+}
+
+.logo-login{
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  background-color: #fff;
+
+}
+
+.logo{
+  width: 100px;
+  height: 80px;
+   padding-left: 20px;
+}
+
+.iiitb-logo-text{
+  display: inline-block;
+  font-family: 'Serif',Stanford, 'Source Serif Pro', Georgia, Times, 'Times New Roman', serif;
+  font-style: large;
+  font-weight: 900;
+  font-variant: normal;
+  text-transform: none;
+  text-decoration: none;
+  line-height: 0.9;
+   padding-top: 34px;
+   padding-left: 5px;
+  color: rgb(4, 44, 104);
+  font-size: 35px;
+}
+
+.su-card img{
+  width: 100%;
+  height: 100%;
+}
+.login
+{
+	padding-right: 10px;
+	padding-top: 30px;
+}
+
+
+.login-button-manager{
+  background-color: #015483;
+  /* background-color: rgba(13, 135, 165, 1); */
+  /* font-family: 'Serif', 'Source Serif Pro', Georgia, Times, 'Times New Roman', serif; */
+  font-style: large;
+  font-weight: 600;
+  font-variant: normal;
+  text-transform: none;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+   padding-top: 10px;
+   padding-right: 20px;
+   padding-left: 10px;
+   padding-bottom: 10px;
+}
+
+.login-button-manager1{
+  background-color: #FFC500;
+  /* background-color: rgba(13, 135, 165, 1); */
+  /* font-family: 'Serif', 'Source Serif Pro', Georgia, Times, 'Times New Roman', serif; */
+  font-style: large;
+  font-weight: 1000;
+  font-variant: normal;
+  text-transform: none;
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 20px;
+  text-align: center;
+   padding-top: 10px;
+   padding-right: 20px;
+   padding-left: 10px;
+   padding-bottom: 10px;
+}
+
+a.login-button-manager:focus,a.login-button-manager:hover {
+  color:#fff !important;
+  text-decoration:underline !important;
+ }
+/*##############################        DIV-2       MAIN EVENTS                        #######################*/
+
+
+
+
+
+#main-events{
+  /* display: table; */
+  /* z-index: 1000; */
+  position: relative;
+  width: 100%;
+
+}
+
+.navbar-nav  li a{
+    color: #4d4949;
+    font-size: 16px;
+    font-weight: 800;
+    text-decoration: none;
+    font-family: Arial;
+   text-decoration: none;
+}
+
+.navbar-brand{
+  color: white;
+  font-size:90;
+  font-weight: 800;
+  text-decoration: none;
+  font-family: Arial;
+ text-decoration: none;
+}
+
+.navbar-nav li a:hover{
+    color: #fff;
+    background: #ffcc33;
+}
+
+
+
+
+
+/*############################## 				DIV-2				TITLE SEARCH                        #######################*/
+
+
+.container1{
+  position: relative;
+  width: 85%;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.title-search-me{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title-search{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+
+.title{
+  font-family: Times;
+  font-style: large;
+  font-weight: 900;
+  font-size: 3.2rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #1A3C6F;;
+  display: inline-block;
+  text-decoration: none;
+}
+
+input[type=text] {
+  width: 55%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 7px 10px 12px 20px;
+}
+
+select{
+  width: 15%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 1px 2px 1px 1px;
+  
+
+}
+/*############################## 		DIV-3						CALENDAR      FEATURED                        #######################*/
+
+.su-main-nav--mobile-search{
+  display: none;
+}
+/* img{
+  width: 100%;
+  height: 100%;
+} */
+
+/*############################## 			DIV-4					CONTENT   MENU                       #######################*/
+
+#su-main-nav{
+  margin-top: 30px;
+   height: max-content;
+   border-color: grey;
+   background-color: #dbe0e3;
+
+}
+
+.filter{
+  font-size: 21px;
+  font-family: Times;
+  font-weight: bold;
+}
+
+#dp2 {
+  display: none;
+}
+
+.menu2{
+  margin-bottom: 2px;
+}
+
+a.events{
+  text-decoration: none !important;
+}
+
+.events :hover h2{
+  color: #23527c;
+}
+
+
+.main-menu{
+	padding: 0;
+	list-style: none;
+	background: #dbe0e3;
+	margin-left: 20px;
+}
+.main-menu li{
+    display: inline-block;
+    position: relative;
+    /*line-height: 51px;*/
+    height: fit-content;
+    text-align: left;
+    background-color: #72bbe6;
+    /* background: rgba(13, 135, 165, 1); */
+    width:100%;
+}
+
+.main-menu li a{
+    display: block;
+    padding: 8px 65px;
+    color: #333;
+    text-decoration: none;
+}
+.main-menu li a:hover{
+    color: #fff;
+    text-decoration: underline;
+    /* background: #939393; */
+}
+.main-menu li ul.dropdown{
+    display: none;
+}
+.main-menu li:hover ul.dropdown{
+    display: inline-block;	/* Display the dropdown */
+    text-decoration: none !important;
+}
+.main-menu	 li ul.dropdown li{
+    display: inline-block;
+    background: #dbe0e3;
+
+}
+.main-menu	 li ul.dropdown li a{
+  display: inline-block;
+  margin-bottom:2px;
+  background-color: #72bbe6;
+  display: block;
+  padding: 8px 65px;
+  color: #333;
+  text-decoration: none;
+  font-weight: 700;
+
+  /* color: white; */
+}
+
+
+
+
+.su-card{
+  display: flex;
+  margin-bottom: 3%;
+  color: black;
+  background:#fff;
+  box-shadow: 0 0 16px grey;
+  /*border-radius: 20px;*/
+}
+
+.su-card__contents{
+  padding: 0rem 0rem 0 2rem;
+  text-decoration: none;
+}
+
+.events{
+  text-decoration:none;
+}
+
+.event-category {
+	margin-top: 10px;
+    background: #c41230;
+    border-radius: 1em;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1;
+    min-width: 3.5rem;
+    padding: 0.3rem 1rem 0.5rem 1rem;
+}
+.event-date{
+   background: #f26522;
+    border-radius: 1em;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1;
+    min-width: 3.5rem;
+    padding: 0.3rem 1rem 0.5rem 1rem;
+    white-space: nowrap;
+}
+.event-location{
+  background: #EE377D;
+    border-radius: 1em;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1;
+    min-width: 3.5rem;
+    padding: 0.3rem 1rem 0.5rem 1rem;
+    white-space: nowrap;
+}
+
+
+
+.su-card>div:first-child {
+    width: 20%;
+}
+
+.su-card>div:last-child {
+    width: 80%;
+}
+
+
+/* img{
+width: 100%;
+height: 100%;
+} */
+
+
+
+
+#all-below{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+#all-below>div:first-child {
+    width:   70%;
+}
+#all-below>div:nth-child(2) {
+    padding-left: 20px;
+    width: 30%;
+}
+
+.only-events{
+  padding-left: 40px;
+}
+
+.calendar-filters{
+  padding-right: 20px;
+}
+
+.gallery-year-block{
+  /* display: block; */
+  width: 19%;
+  height: 140px;
+  background-color: #ffcc33;
+  /* text-align: center; */
+  text-align: center ;
+  padding-top: 20px;
+  font-size: large;
+  float: left;
+  /* border: 3px; */
+}
+
+.gallery-container {
+  /* border: 3px solid #fff; */
+  padding: 20px;
+}
+
+.all-footer{
+	display: flex;
+	padding-left: 20px;
+	background: black;
+	color: #dddddd;
+	padding-bottom: 20px;
+}
+.widg-title{
+	font-weight: 600;
+}
+.all-footer img{
+	margin-top: 5px;
+	width:70px;
+	height: 60px;
+}
+.all-footer>div:first-child{
+	width:40%;
+	margin: auto;
+
+}
+.all-footer>div:nth-child(2){
+	width:20%;
+	margin: auto;
+
+}
+.all-footer>div:nth-child(3){
+	width:20%;
+	margin: auto;
+
+}
+.all-footer>div:nth-child(4){
+	width:20%;
+	margin: auto;
+}
+
+
+
+.footer2{
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+.footer2 li{
+	color: #dddddd;
+	padding-bottom: 5px;
+}
+.footer3{
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+.footer3 li{
+	color: #dddddd;
+	padding-bottom: 5px;
+}
+.footer4{
+	margin-top: 5px;
+	margin-left: 20px;
+}
+
+
+
+@media screen and (max-width:992px) {
+  #all-below{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+  #all-below>div:first-child {
+      width:   100%;
+  }
+  #all-below>div:nth-child(2) {
+      width: 100%;
+  }
+  .calendar-filters{
+    display: flex;
+    justify-content: space-between;
+  }
+  .calendar-filters>div:first-child {
+      width:   50%;
+  }
+  .calendar-filters>div:nth-child(2) {
+      width: 50%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  #all-below{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+  #all-below>div:first-child {
+      width:   100%;
+  }
+  #all-below>div:nth-child(2) {
+      width: 100%;
+  }
+  .calendar-filters{
+    display: flex;
+    flex-direction: column;
+  }
+  .calendar-filters>div:first-child {
+  	margin:auto;
+      width:   100%;
+  }
+  .calendar-filters>div:nth-child(2) {
+  	margin:auto;
+      width: 100%;
+  }
+
+  .logo-login{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+  margin-bottom: 20px;
+  }
+
+  .login{
+    padding-top: 10px;
+  }
+
+
+  .only-events{
+	padding-left: 10px;
+	padding-right: 10px;
+  }
+
+  .title-search{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .title-search>div:first-child{
+    width: 50%;
+  }
+  .title-search>div:nth-child(2){
+    width: 50%;
+  }
+
+
+  .su-card>div:first-child{
+  	width:0%;
+  }
+  .su-card>div:last-child{
+  	width: 100%;
+  }
+
+  .all-footer{
+    display: flex;
+    flex-direction: column;
+  }
+  .all-footer>div:first-child{
+  	width:100%;
+  	margin: auto;
+
+  }
+  .all-footer>div:nth-child(2){
+  	width:100%;
+  	margin: auto;
+
+  }
+  .all-footer>div:nth-child(3){
+  	width:100%;
+  	margin: auto;
+
+  }
+  .all-footer>div:nth-child(4){
+  	width:100%;
+  	margin: auto;
+  }
+
+
+
+}

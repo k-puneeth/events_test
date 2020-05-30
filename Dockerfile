@@ -12,6 +12,7 @@ COPY . /usr/app/
 
 # Installing the requirements inside the container
 RUN npm install
+RUN npm install -g @angular/cli
 
 
 CMD ["./run.sh", "-t", "20", "db:3306", "--", "node", "server.js"]

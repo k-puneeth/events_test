@@ -16,4 +16,3 @@ RUN npm install -g @angular/cli
 
 
 CMD ["./run.sh", "-t", "40", "db:3306", "--", "node", "server.js"]
-#CMD ["/bin/sh","run.sh"]

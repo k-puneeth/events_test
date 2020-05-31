@@ -1,6 +1,5 @@
 FROM node:12-alpine
 
-# Exposing port where service is running
 EXPOSE 4000
 
 # Defining the directory structure inside the container

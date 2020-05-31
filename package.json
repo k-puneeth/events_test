@@ -2,7 +2,7 @@
   "name": "node_mysql",
   "version": "1.0.0",
   "description": "IIITB events",
-  "main": "server.js",
+  "main": "myserver.js",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.13.4",
@@ -11,8 +11,5 @@
     "mysql": "^2.10.2",
     "multer": "^1.1.0",
     "path": "^0.12.7"
-  },
-  "scripts":{
-    "start": "nodemon server.js"
   }
 }

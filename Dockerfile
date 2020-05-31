@@ -10,9 +10,9 @@ WORKDIR /usr/app
 # Copying relevant files inside container
 COPY . /usr/app/
 
-RUN chmod +x /run.sh
+RUN apk add --no-cache bash
+RUN chmod 0755 run.sh
 # Installing the requirements inside the container
-RUN npm install
 RUN npm install -g @angular/cli
 
 

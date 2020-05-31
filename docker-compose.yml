@@ -11,6 +11,7 @@ services:
   events:
     build: .
     image: puneethk26/eventsweb:latest
+    restart: always
     container_name: events
     depends_on:
       - db

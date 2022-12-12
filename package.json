@@ -5,7 +5,7 @@
   "main": "myserver.js",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "express": "^4.13.4",
+    "express": "^4.17.3",
     "method-override": "^2.3.10",
     "morgan": "^1.9.0",
     "mysql": "^2.10.2",
